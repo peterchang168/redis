@@ -6,4 +6,4 @@ machine:
 test:
   override:
     - echo 'test'
-    #- service redis status
+    - redis-server
