@@ -1,0 +1,8 @@
+machine:
+  services:
+    - redis
+
+
+test:
+  override:
+    - service redis status
